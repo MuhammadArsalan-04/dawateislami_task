@@ -1,14 +1,12 @@
+import 'package:dawateislam_task/presentations/views/contact_us/layout/body.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/src/widgets/framework.dart';
-import 'package:flutter/src/widgets/placeholder.dart';
 
 class ContactUsView extends StatelessWidget {
+  static const String routeName = '/contact_us';
   const ContactUsView({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-        child: Text('Contact Us'),
-      );
+    return ContactUsViewBody();
   }
 }

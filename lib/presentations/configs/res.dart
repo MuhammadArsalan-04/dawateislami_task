@@ -14,5 +14,8 @@ class Res {
   static const String kKalmaDua = 'assets/app_images/5.jpg';
   static const String kNaat = 'assets/app_images/6.jpg';
   static const String kQuranTeacher = 'assets/app_images/7.jpg';
+
+  //logo
+  static const String kLogo = 'assets/logo.png';
   
 }
