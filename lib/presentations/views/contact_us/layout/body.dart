@@ -3,7 +3,7 @@ import 'package:dawateislam_task/presentations/configs/res.dart';
 import 'package:dawateislam_task/presentations/elements/custom_background_image_scaffold.dart';
 import 'package:dawateislam_task/presentations/elements/custom_text.dart';
 import 'package:dawateislam_task/presentations/views/contact_us/layout/widgets/custom_textfield.dart';
-import 'package:dawateislam_task/presentations/views/contact_us/layout/widgets/logo_widget.dart';
+import 'package:dawateislam_task/presentations/elements/logo_widget.dart';
 import 'package:flutter/material.dart';
 
 class ContactUsViewBody extends StatelessWidget {

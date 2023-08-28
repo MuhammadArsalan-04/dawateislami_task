@@ -1,3 +1,4 @@
+import 'package:dawateislam_task/presentations/views/about_us/about_us_view.dart';
 import 'package:dawateislam_task/presentations/views/bottom_navigationbar/bottom_navigation_bar.dart';
 import 'package:dawateislam_task/presentations/views/contact_us/contact_us_view.dart';
 import 'package:dawateislam_task/presentations/views/home/home_view.dart';
@@ -21,6 +22,8 @@ class MyApp extends StatelessWidget {
         HomeView.routeName: (context) => const HomeView(),
         SocialMediaAccountsView.routeName: (context) => const SocialMediaAccountsView(),
         ContactUsView.routeName: (context) => const ContactUsView(),
+        AboutUsView.routeName: (context) => const AboutUsView(),
+
       },
     );
   }

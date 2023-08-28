@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../../../../configs/res.dart';
+import '../configs/res.dart';
 
 class LogoWidgetView extends StatelessWidget {
   const LogoWidgetView({super.key});

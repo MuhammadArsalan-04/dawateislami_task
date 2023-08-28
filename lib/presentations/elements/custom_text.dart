@@ -25,6 +25,7 @@ class CustomText extends StatelessWidget {
       text,
       textAlign: textAlign,
       softWrap: softwrap,
+      
       style: TextStyle(
         fontSize: fontSize ?? 16,
         fontWeight: fontWeight ?? FontWeight.w400,

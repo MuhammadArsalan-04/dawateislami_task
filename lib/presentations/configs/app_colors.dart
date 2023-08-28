@@ -7,6 +7,12 @@ class AppColors {
     Color(0xff37cfc1)
   ];
 
+  static const List<Color> kLocationGradient = [
+    Color(0xff2b893b),
+    Color(0xff2e952b),
+    
+  ];
+
   //scaffold constants
   static Color scaffoldBackgroundOpacity = Colors.white.withOpacity(0.9);
 
