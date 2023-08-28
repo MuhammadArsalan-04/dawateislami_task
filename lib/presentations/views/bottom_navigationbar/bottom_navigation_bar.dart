@@ -48,7 +48,7 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
         bottomNavigationBar: Container(
           alignment: Alignment.center,
           height: 70,
-          color: Colors.white,
+          color: AppColors.kPrimaryColor,
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -67,7 +67,7 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
                           transform: Matrix4.translationValues(0, -20, 0),
                           decoration: BoxDecoration(
                             borderRadius: BorderRadius.circular(50),
-                            gradient: getGradient(),
+                            color: Colors.white,
                           ),
                           child: Column(
                             mainAxisAlignment: MainAxisAlignment.center,
@@ -75,14 +75,14 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
                             children: [
                               Icon(
                                 icon['icon'] as IconData,
-                                color: Colors.white,
+                                color: AppColors.kPrimaryColor,
                                 size: 30,
                               ),
                               const SizedBox(height: 4),
                               CustomText(
                                 text: icon['title'],
-                                color: Colors.white,
-                                fontSize: 12,
+                                color: AppColors.kPrimaryColor,
+                                fontSize: AppColors.kIconTextSize,
                               ),
                             ],
                           ),
@@ -98,14 +98,14 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
                             children: [
                               Icon(
                                 icon['icon'] as IconData,
-                                color: Colors.black,
-                                size: 36,
+                                color: Colors.white,
+                                size: AppColors.kIconSize,
                               ),
                               const SizedBox(height: 4),
                               CustomText(
                                 text: icon['title'],
-                                fontSize: 12,
-                                color: Colors.black,
+                                fontSize: AppColors.kIconTextSize,
+                                color: Colors.white,
                               )
                             ],
                           ),
@@ -119,16 +119,16 @@ class _CustomBottomNavigationBarState extends State<CustomBottomNavigationBar> {
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    const Icon(
+                    Icon(
                       Icons.share_outlined,
-                      color: Colors.black,
-                      size: 36,
+                      color: AppColors.kNavBarIconColor,
+                      size: AppColors.kIconSize,
                     ),
                     const SizedBox(height: 4),
                     CustomText(
                       text: "Share",
-                      fontSize: 12,
-                      color: Colors.black,
+                      fontSize: AppColors.kIconTextSize,
+                      color: AppColors.kNavbarIconTextColor,
                     )
                   ],
                 ),
