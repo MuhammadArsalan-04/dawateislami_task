@@ -39,6 +39,8 @@ dependencies:
   external_app_launcher: ^3.1.0
   share_plus: ^6.3.4
   url_launcher: ^6.1.11
+  carousel_slider: ^4.2.1
+  youtube_player_flutter: ^8.1.2
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +74,7 @@ flutter:
   assets:
     - assets/
     - assets/app_images/
+    - assets/darbar_images/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

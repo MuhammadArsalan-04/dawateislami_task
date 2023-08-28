@@ -2,6 +2,7 @@ import 'package:dawateislam_task/presentations/views/about_us/about_us_view.dart
 import 'package:dawateislam_task/presentations/views/bottom_navigationbar/bottom_navigation_bar.dart';
 import 'package:dawateislam_task/presentations/views/contact_us/contact_us_view.dart';
 import 'package:dawateislam_task/presentations/views/home/home_view.dart';
+import 'package:dawateislam_task/presentations/views/media_screen/media_view.dart';
 import 'package:dawateislam_task/presentations/views/social_media_accounts/social_media_accounts.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         SocialMediaAccountsView.routeName: (context) => const SocialMediaAccountsView(),
         ContactUsView.routeName: (context) => const ContactUsView(),
         AboutUsView.routeName: (context) => const AboutUsView(),
-
+        MediaView.routeName: (context) => const MediaView(),
       },
     );
   }

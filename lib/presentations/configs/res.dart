@@ -5,7 +5,7 @@ class Res {
   static const String kInsta = 'assets/instagram.png';
   static const String kTwitter = 'assets/twitter.png';
   static const String kYoutube = 'assets/youtube.png';
-  
+
   //App images
   static const String kAlQuran = 'assets/app_images/1.jpg';
   static const String kTafseer = 'assets/app_images/2.jpg';
@@ -17,5 +17,9 @@ class Res {
 
   //logo
   static const String kLogo = 'assets/logo.png';
-  
+
+  //darbar Images
+  static const String kimage1 = 'assets/darbar_images/image.jpg';
+  static const String kimage2 = 'assets/darbar_images/image2.jpg';
+  static const String kimage3 = 'assets/darbar_images/image3.jpg';
 }
